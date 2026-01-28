@@ -94,7 +94,7 @@ class MergedColumnParallelLinear(ColumnParallelLinear):
 
 
 class QKVParallelLinear(ColumnParallelLinear):
-
+    QKVParallelLinear
     def __init__(
         self,
         hidden_size: int,
